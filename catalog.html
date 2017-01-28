@@ -35,13 +35,13 @@
   <main class="wrap">
       <div class="index-content">
         <div class="index-content-left">
-          <section class="wrap">
+          <div class="form">
             <form action="#" method="get" class="form">
-              <fieldset class="form">
-                <legend class="form-title">Сетка:</legend>
+              <fieldset class="field-group">
+                <legend class="field-group-title">Сетка:</legend>
                 <label class="label">
                   <input type="radio" name="form-type" value="adaptive" checked>Адаптивная
-               </label>
+                </label>
                 <label class="label">
                   <input type="radio" name="form-type" value="fixed">Фиксированная
                 </label>
@@ -49,8 +49,8 @@
                   <input type="radio" name="form-type" value="rubber">Резиновая
                 </label>
               </fieldset>
-              <fieldset class="form">
-                <legend class="form-title">Особенности:</legend>
+              <fieldset class="field-group">
+                <legend class="field-group-title">Особенности:</legend>
                 <input type="checkbox" class="form-checkbox" id="features-1" checked>
                 <label for="features-1">Слайдер</label>
                 <input type="checkbox" class="form-checkbox" id="features-2">
@@ -64,7 +64,7 @@
                 <button class="btn" type="submit" href="#">Показать</button>
               </fieldset>
             </form>
-          </section>
+          </div>
         </div>
         <div class="index-content-right">
           <ul class="list"><b class="list-title">Сортировать</b>
@@ -84,7 +84,7 @@
               <span class="article-span"></span>
               <span class="article-span"></span>
             </header>
-            <img class="image" src="http://placehold.it/150x200">
+            <img class="article-image" src="http://placehold.it/150x200">
             <div class="article-popup">
               <h2 class="article-title">sedona</h2>
               <p class="article-text">Информационный сайт для туристов</p>
@@ -97,7 +97,7 @@
               <span class="article-span"></span>
               <span class="article-span"></span>
             </header>
-            <img class="image" src="http://placehold.it/150x200">
+            <img class="article-image" src="http://placehold.it/150x200">
             <div class="article-popup">
               <h2 class="article-title">sedona</h2>
               <p class="text">Информационный сайт для туристов</p>
@@ -110,7 +110,7 @@
               <span class="article-span"></span>
               <span class="article-span"></span>
             </header>
-          <img class="image" src="http://placehold.it/150x200">
+          <img class="article-image" src="http://placehold.it/150x200">
             <div class="article-popup">
               <h2 class="article-title">sedona</h2>
               <p class="text">Информационный сайт для туристов</p>
@@ -123,7 +123,7 @@
               <span class="article-span"></span>
               <span class="article-span"></span>
             </header>
-          <img class="image" src="http://placehold.it/150x200">
+          <img class="article-image" src="http://placehold.it/150x200">
             <div class="article-popup">
               <h2 class="article-title">sedona</h2>
               <p class="text">Информационный сайт для туристов</p>
@@ -136,7 +136,7 @@
               <span class="article-span"></span>
               <span class="article-span"></span>
             </header>
-          <img class="image" src="http://placehold.it/150x200">
+          <img class="article-image" src="http://placehold.it/150x200">
             <div class="article-popup">
               <h2 class="article-title">sedona</h2>
               <p class="text">Информационный сайт для туристов</p>
@@ -149,7 +149,7 @@
               <span class="article-span"></span>
               <span class="article-span"></span>
             </header>
-          <img class="image" src="http://placehold.it/150x200">
+          <img class="article-image" src="http://placehold.it/150x200">
             <div class="article-popup">
               <h2 class="article-title">sedona</h2>
               <p class="text">Информационный сайт для туристов</p>
@@ -175,17 +175,19 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <section class="footer-contacts">
+        <section class="map">
           <img src="http://placehold.it/600x200">
-          <b class="footer-contacts-title">nёrds design studio</b>
-          <p class="footer-contacts-text">191186,Санкт-Петербург,<br>ул.Б.Конюшенная,д.19/8</p>
-          <p class="footer-contacts-text">тел. +7 (812) 275-75-75</p>
-          <a class="btn" href="#">Напишите нам</a>
+          <b class="map-title">nёrds design studio</b>
+          <p class="map-text">191186,Санкт-Петербург,<br>ул.Б.Конюшенная,д.19/8</p>
+          <p class="map-text">тел. +7 (812) 275-75-75</p>
+          <a class="map-btn" href="#">Напишите нам</a>
         </section>
-        <section class="footer-social">
+        <section class="footer-social-logo">
           <a class="social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-social">
           <h2 class="footer-social-title">Давайте дружить, это выгодно!</h2>
           <p class="footer-social-text">Скидка 10% для друзей из социальных сетей</p>
         </section>
