@@ -19,3 +19,31 @@ h2 {
     font-weight: bold;
     font-family: Roboto;
 }
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-navigation {
+  float: left;
+  width: 430px;
+  margin-left: 180px;
+  margin-top: 55px;
+}
+.index-logo {
+  float: left;
+  width: 140px;
+  height: 56px;
+  margin-top: 27px;
+  margin-bottom: 48px;
+}
+.basket {
+  float: right;
+  max-width: 100px;
+}
+.features {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
