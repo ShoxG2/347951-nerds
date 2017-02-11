@@ -19,16 +19,26 @@ h2 {
     font-weight: bold;
     font-family: Roboto;
 }
-.container {
-  width: 880px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
 .main-navigation {
   float: left;
   width: 430px;
   margin-left: 180px;
   margin-top: 55px;
+}
+.main-navigation-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+.main-navigation-item {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 46px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .index-logo {
   float: left;
@@ -41,9 +51,88 @@ h2 {
   float: right;
   max-width: 100px;
 }
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 .features {
   float: left;
   width: 240px;
   margin-right: 80px;
   margin-bottom: 80px;
+}
+.features-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+}
+.index-content {
+  margin-bottom: 10px;
+  padding-top: 40px;
+  border-top: 2px solid #eeeeee;
+}
+.index-content-left {
+  float: left;
+  width: 550px;
+  margin-bottom: 30px;
+}
+.index-content-right {
+  float: right;
+  width: 300px;
+  margin-bottom: 30px;
+}
+.list {
+  padding: 0;
+  list-style: none;
+}
+.item {
+  position: relative;
+  margin-bottom: 22px;
+  padding-left: 37px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.sponsors {
+  margin-bottom: 85px;
+  padding-top: 46px;
+  padding-bottom: 38px;
+  font-size: 0;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+.sponsor {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 120px;
+  font-size: 16px;
+}
+.map {
+  position: relative;
+  height: 416px;
+  background-color: #cecece;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 214px;
+  height: 190px;
+  padding: 25px 20px;
+  transform: translate(-440px, -50%);
+  background: #ffffff;
+}
+.main-footer {
+  margin-top: 74px;
+  margin-bottom: 75px;
+}
+.footer-social {
+  float: left;
+  width: 250px;
+  margin-right: 52px;
+  text-align: center;
 }
