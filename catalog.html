@@ -6,7 +6,7 @@
   </head>
 <body>
   <header class="header">
-    <div class="conteiner">
+    <div class="container clearfix">
       <div class="index-logo">
         <img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс">
       </div>
@@ -38,47 +38,41 @@
         <div class="index-content-left">
           <div class="form">
             <form action="#" method="get" class="form">
-              <fieldset class="field-group">
-                <legend class="field-group-title">Сетка:</legend>
-                <label class="label">
-                  <input type="radio" name="form-type" value="adaptive" checked>Адаптивная
-                </label>
-                <label class="label">
-                  <input type="radio" name="form-type" value="fixed">Фиксированная
-                </label>
-                <label class="label">
-                  <input type="radio" name="form-type" value="rubber">Резиновая
-                </label>
+              <fieldset class="fieldset-form  fieldset-radio">
+                <legend class="legend">Сетка:</legend>
+                <input class="radio" id="radio-1" type="radio" name="radio" disabled>
+                <label for="radio-1">Адаптивная</label>
+                <input class="radio" id="radio-2" type="radio" name="radio">
+                <label for="radio-2">Фиксированная</label>
+                <input class="radio" id="radio-3" type="radio" name="radio">
+                <label for="radio-3">Резиновая</label>
               </fieldset>
-              <fieldset class="field-group">
-                <legend class="field-group-title">Особенности:</legend>
-                <input type="checkbox" class="form-checkbox" id="features-1" checked>
-                <label for="features-1">Слайдер</label>
-                <input type="checkbox" class="form-checkbox" id="features-2">
-                <label for="features-2">Блок преимуществ</label>
-                <input type="checkbox" class="form-checkbox" id="features-3" checked>
-                <label for="features-3">Новости</label>
-                <input type="checkbox" class="form-checkbox" id="features-4">
-                <label for="features-4">Галерея</label>
-                <input type="checkbox" class="form-checkbox" id="features-5">
-                <label for="features-5">Корзина</label>
-                <button class="btn" type="submit">Показать</button>
+              <fieldset class="fieldset-form">
+                <legend class="legend legend-last">Особености:</legend>
+                <input class="checkbox" id="check-1" type="checkbox" name="slider" disabled>
+                <label for="check-1">Слайдер</label>
+                <input class="checkbox" id="check-2" type="checkbox" name="block">
+                <label for="check-2">Блок преимуществ</label>
+                <input class="checkbox" id="check-3" type="checkbox" name="news">
+                <label for="check-3">Новости</label>
+                <input class="checkbox" id="check-4" type="checkbox" name="gallery">
+                <label for="check-4">Галерея</label>
+                <input class="checkbox" id="check-5" type="checkbox" name="basket">
+                <label for="check-5">Корзина</label>
               </fieldset>
+              <button class="btn btn-show" type="submit">Показать</button>
             </form>
           </div>
         </div>
         <div class="index-content-right">
-          <b class="list-title">Сортировать</b>
-          <ul class="list">
-            <li class="item">
-              <a class="item-link" href="#">По цене</a>
-            </li>
-            <li class="item">
-              <a class="item-link" href="#">По типу</a>
-            </li>
-             <li class="item">
-              <a class="item-link" href="#">По названию</a>
-            </li>
+          <ul class="content-sorting clearfix">
+            <li> Сортировать:</li>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#" class="sort-active">По названию</a></li>
+            <li class="arrows">
+            <a href="#" class="arrow   arrow-down active"></a>
+            <a href="#" class="arrow arrow-up"></a></li>
           </ul>
           <article class="article">
             <header class="article-header">
