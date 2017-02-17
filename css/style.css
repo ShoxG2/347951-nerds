@@ -19,6 +19,11 @@ h2 {
     font-weight: bold;
     font-family: Roboto;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .header {
   padding-top: 20px;
   background: #eeeeee;
@@ -466,4 +471,124 @@ iframe {
   width: 560px;
   margin-top: 6px;
 }
+.content-sorting .arrows {
+  float: right;
+  padding-right: 0;
+  width: 25px;
+}
+.arrows li {
+  padding: 0;
+  margin: 0;
+}
+.content-sorting .sort-active {
+  border: none;
 
+  color: #000000;
+  outline: none;
+  text-decoration: none;
+  cursor: context-menu;
+}
+.content-sorting ul {
+  margin: 0;
+  padding: 0;
+
+  font-size: 0;
+
+  list-style: none;
+}
+.content-sorting a {
+  text-decoration: none;
+  border-bottom: 1px dotted #00ca74;
+  color: #b2b2b2;
+}
+.article {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  margin-right: 80px;
+  margin-bottom: 67px;
+  font-size: 18px;
+}
+.article header {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 0;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+}
+.article span {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.article-title {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.article-popup {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  display: none;
+  width: 170px;
+  padding: 37px 15px;
+  font-size: 14px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.article:hover .article-popup {
+  display: block;
+}
+.article-text {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 35px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+.pagination {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+.pagination-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.pagination-link {
+  display: block;
+  margin-right: 3px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  color: #000000;
+  text-decoration: none;
+}
+.pagination-link:hover {
+  background-color: #e5e5e5;
+}
+.pagination-link:active {
+  background-color: #d5d5d5;
+  box-shadow: inset 0 3px #b5b5b5;
+}
+.pagination-link-next {
+  padding-right: 32px;
+  padding-left: 32px;
+}
