@@ -380,7 +380,13 @@ h2 {
 iframe {
   width:100%
 }
-
+.map {
+  position: relative
+}
+.form {
+  position: relative
+  z-index: 2;
+}
 
 
 .main-title {
