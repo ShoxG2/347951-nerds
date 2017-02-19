@@ -4,7 +4,7 @@ var feedbackPopup = document.querySelector(".modal-content");
 
 var feedbackClose = feedbackPopup.querySelector(".modal-content-close");
 
-feedbackOpen.addEventLidstener("click", function(event) {
+feedbackOpen.addEventListener("click", function(event) {
   event.preventDefault();
   
   feedbackPopup.classList.toggle("modal-content-show");
@@ -16,7 +16,7 @@ feedbackClose.addEventListener("click", function(event) {
   feedbackPopup.classList.remove("modal-content-show");
 });
 
-window.addEventListener("keeydown", functrion(event) {
+window.addEventListener("keydown", function(event) {
   if (event.keyCode === 27 && feedbackPopup.classList.contains("modal-content-show")) {
     feedbackPopup.classList.remove("modal-content-show");
   }
