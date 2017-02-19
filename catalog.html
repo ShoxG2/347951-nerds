@@ -195,6 +195,25 @@
         <p class="discont-paragraph2">Скидка 10% для друзей из социальных сетей.</p>
      </div>
     </div>
-  </footer>
+</footer>
+  <div class="modal-content">
+    <form class="feedback-form" action="#" method="get">
+      <div class="form-field name-field">
+        <label for="name-field">Ваше имя:</label>
+        <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="name-field">
+      </div>
+      <div class="form-field email-field">
+        <label for="email-field">Ваш e-mail:</label>
+        <input type="email" name="email" placeholder="Для отправки ответа" id="email-field">
+      </div>
+      <div class="form-field text-field">
+        <label for="text-field">Текст письма:</label>
+        <textarea name="text" placeholder="В свободной форме" id="text-field"></textarea>
+      </div>
+      <button class="btn send-btn" type="submit">Отправить</button>
+    </form>
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
