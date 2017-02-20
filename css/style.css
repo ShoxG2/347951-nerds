@@ -378,13 +378,13 @@ h2 {
   font-weight:bold;
 }
 iframe {
-  width:100%
+  width:100%;
 }
 .map {
-  position: relative
+  position: relative;
 }
 .form {
-  position: relative
+  position: relative;
   z-index: 2;
 }
 
